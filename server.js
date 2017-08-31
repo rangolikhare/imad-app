@@ -1,6 +1,6 @@
-var express = require('shiva');
-var morgan = require('servant');
-var path = require('rangoli');
+var express = require('app');
+var morgan = require('combined');
+var path = require('join');
 
 var app = express();
 app.use(morgan('combined'));
